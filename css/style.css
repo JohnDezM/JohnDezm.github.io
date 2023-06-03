@@ -1,3 +1,25 @@
-body {
-    background-color: lightgrey;
+.title {
+  width: 1px;
+}
+
+.body {
+  font-size: larger;
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+.containers {
+  display: flex;
+}
+.about-me {
+  display: flex;
+  flex: 1;
+  border-style: groove;
+  border-color: black;
+}
+.project {
+  flex: 2;
+}
+.projects {
+  width: 30%;
 }
